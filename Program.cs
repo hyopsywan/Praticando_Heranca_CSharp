@@ -1,5 +1,6 @@
 ﻿using Heranca;
 using AtividadeHerancaPOO;
+using Praticando_Heranca_CSharp;
 
 
 // EX 1 -
@@ -22,7 +23,15 @@ CursosOnline c1 = new CursosOnline("Jornada do Artista", 00.00m, 43);
 JogoDigital j1 = new JogoDigital("Phasmophobia", "Steam Store");
 JogoFisico j2 = new JogoFisico("Black Stories", "Gálapagos Jogos");
 
-j1.JogosInformacoes();
-j2.JogosInformacoes();
+//j1.JogosInformacoes();
+//j2.JogosInformacoes();
 
 // EX 4 - 
+
+NotificacaoEmail e = new NotificacaoEmail("Bem-Vindo ao MusicHub!");
+NotificacaoPush p = new NotificacaoPush("Bem-Vindo ao MusicHub!");
+NotificacaoSMS s = new NotificacaoSMS("Bem-Vindo ao MusicHub!");
+
+//e.Enviar();
+//p.Enviar();
+//s.Enviar();
