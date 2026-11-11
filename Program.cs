@@ -18,3 +18,11 @@ CursosOnline c1 = new CursosOnline("Jornada do Artista", 00.00m, 43);
 //c1.ExibirInformacoes();
 
 // EX 3 - 
+
+JogoDigital j1 = new JogoDigital("Phasmophobia", "Steam Store");
+JogoFisico j2 = new JogoFisico("Black Stories", "Gálapagos Jogos");
+
+j1.JogosInformacoes();
+j2.JogosInformacoes();
+
+// EX 4 - 
